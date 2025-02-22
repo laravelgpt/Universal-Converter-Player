@@ -1,0 +1,8 @@
+tkinter
+customtkinter
+Pillow
+opencv-python
+pygame
+requests
+shutil
+zipfile
