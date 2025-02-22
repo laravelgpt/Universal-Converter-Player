@@ -14,7 +14,7 @@ An all-in-one file format converter and media player built with **Python, Tkinte
 ✅ **Progress Indicators** - Live conversion progress with percentage updates.  
 ✅ **Intuitive UI** - Built with **CustomTkinter** for a modern interface.  
 ---
-Vusial Image
+Visual Image
 ![image](https://github.com/user-attachments/assets/40221080-ee58-43c1-9375-c907037c6eee)
 
 ---
