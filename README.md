@@ -13,6 +13,9 @@ An all-in-one file format converter and media player built with **Python, Tkinte
 ✅ **Auto-Installs FFmpeg** - Automatically downloads and configures **FFmpeg** if not installed.  
 ✅ **Progress Indicators** - Live conversion progress with percentage updates.  
 ✅ **Intuitive UI** - Built with **CustomTkinter** for a modern interface.  
+---
+Vusial Image
+![image](https://github.com/user-attachments/assets/40221080-ee58-43c1-9375-c907037c6eee)
 
 ---
 ## Installation & Setup ⚙️
