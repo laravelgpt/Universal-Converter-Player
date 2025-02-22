@@ -1,58 +1,99 @@
-# Universal Converter & Player
+# Universal Converter & Media Player 🎥🎵
 
-## Overview
-Universal Converter & Player is a powerful tool that allows users to convert and play various media file formats. This application supports video, audio, and document formats while providing an intuitive and user-friendly interface built with `Tkinter` and `CustomTkinter`.
+![GitHub License](https://img.shields.io/github/license/yourusername/yourrepository)
+![GitHub Stars](https://img.shields.io/github/stars/yourusername/yourrepository?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/yourrepository?style=social)
 
-## Features
-- **File Conversion**: Convert files to different formats including MP4, AVI, MOV, MP3, WAV, FLAC, MKV, JPG, PNG, PDF, DOCX, and TXT.
-- **Video Quality Selection**: Convert videos to 480p, 720p, or 1080p.
-- **Media Player**: Play videos and audio files with playback controls.
-- **Progress Tracking**: Real-time conversion and playback progress bars.
-- **FFmpeg Auto-Installation**: Automatically downloads and installs FFmpeg if missing.
-- **Responsive UI**: CustomTkinter-based modern and adaptive interface.
-- **Seek & Skip**: Jump forward or backward while playing media.
-- **Full-Screen Mode**: Toggle full-screen for video playback.
+An all-in-one file format converter and media player built with **Python, Tkinter, OpenCV, and FFmpeg**. Supports video, audio, and document conversions seamlessly! 🔄🎬
 
-## Installation
+## Features 🚀
+✅ **Convert Files** - Supports **MP4, AVI, MOV, MP3, WAV, FLAC, MKV, JPG, PNG, PDF, DOCX, TXT** formats.  
+✅ **Customize Video Quality** - Convert videos to **480p, 720p, or 1080p**.  
+✅ **Built-in Media Player** - Play videos and audio with playback controls.  
+✅ **Auto-Installs FFmpeg** - Automatically downloads and configures **FFmpeg** if not installed.  
+✅ **Progress Indicators** - Live conversion progress with percentage updates.  
+✅ **Intuitive UI** - Built with **CustomTkinter** for a modern interface.  
 
+---
+## Installation & Setup ⚙️
 ### Prerequisites
-Ensure you have Python installed on your system. The application requires `FFmpeg` and the following dependencies:
+Ensure you have **Python 3.8+** installed. Then, clone the repository:
+```sh
+ git clone https://github.com/yourusername/yourrepository.git
+ cd yourrepository
+```
 
 ### Install Dependencies
 ```sh
-pip install pillow opencv-python requests pygame customtkinter
+ pip install -r requirements.txt
 ```
 
 ### Run the Application
 ```sh
-python main.py
+ python main.py
 ```
 
-## Usage
-1. **Select a File**: Click on `📂 Select File` to choose a media file.
-2. **Choose Output Format**: Select a desired conversion format from the dropdown menu.
-3. **Set Quality (for videos)**: Choose between 480p, 720p, or 1080p.
-4. **Convert File**: Click `🔄 Convert` to begin file conversion.
-5. **Play Media**: Use the built-in player to watch videos or listen to audio.
-6. **Control Playback**:
-   - ▶ Play / ⏸ Pause / ⏹ Stop
-   - ⏪ -10s / ⏩ +10s for video skipping
-   - 🔳 Full-Screen Mode
+---
+## Usage 🎮
+1. **Launch the app** and click on **"📂 Select File"**.
+2. **Choose the desired output format** (e.g., MP4, MP3, JPG, PDF).
+3. **Select video quality** (if applicable: 480p, 720p, 1080p).
+4. Click **"🔄 Convert"** to start the process.
+5. View progress in the progress bar.
+6. Play converted media in the built-in player.
 
-## FFmpeg Installation
-The program will attempt to install `FFmpeg` automatically. If it fails, install it manually:
-- **Windows**: [Download FFmpeg](https://www.gyan.dev/ffmpeg/builds/)
-- **MacOS**: `brew install ffmpeg`
-- **Linux**: `sudo apt-get install ffmpeg`
+---
+## Supported Formats 🎵🎬📄
+### 🎥 Video Formats
+- MP4, AVI, MOV, MKV
 
-## Future Improvements
-- Support for batch file conversion
-- More document format conversions
-- Enhanced UI themes and customization
+### 🎵 Audio Formats
+- MP3, WAV, FLAC
 
-## Contributing
-Feel free to submit issues or pull requests to improve the application!
+### 📄 Document Formats
+- JPG, PNG, PDF, DOCX, TXT
 
-## License
-This project is licensed under the MIT License.
+---
+## Built With 🛠️
+- **Python 3.8+**
+- **Tkinter (CustomTkinter)** - UI Framework
+- **FFmpeg** - Media Processing
+- **OpenCV** - Video Handling
+- **PIL (Pillow)** - Image Processing
+- **Pygame (mixer)** - Audio Playback
+
+---
+## FFmpeg Auto-Installation 🎯
+If FFmpeg is missing, the script **automatically downloads and installs it** (Windows, macOS, Linux supported). Alternatively, install manually:
+```sh
+sudo apt-get install ffmpeg -y   # Linux
+brew install ffmpeg              # macOS
+choco install ffmpeg             # Windows (using Chocolatey)
+```
+
+---
+## Contribution Guidelines 🤝
+We welcome contributions! Follow these steps:
+1. **Fork the repository** 📌
+2. **Create a new branch**: `git checkout -b feature-branch`
+3. **Commit your changes**: `git commit -m "Added awesome feature"`
+4. **Push to GitHub**: `git push origin feature-branch`
+5. **Submit a Pull Request** 🚀
+
+---
+## License 📜
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+## Acknowledgements 🙌
+Special thanks to **Open Source contributors** and the creators of **FFmpeg, OpenCV, and Tkinter** for making this project possible! 💙
+
+---
+## Connect With Me 🌍
+[![GitHub](https://img.shields.io/badge/GitHub-YourUsername-black?style=flat&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourProfile-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+---
+
+**Enjoy seamless file conversion & playback with Universal Converter & Player! 🚀**
 
