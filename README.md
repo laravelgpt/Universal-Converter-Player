@@ -20,7 +20,7 @@ An all-in-one file format converter and media player built with **Python, Tkinte
 Ensure you have **Python 3.8+** installed. Then, clone the repository:
 ```sh
  git clone https://github.com/laravelgpt/Universal-Converter-Player.git
- cd yourrepository
+ cd Universal-Converter-Player
 ```
 
 ### Install Dependencies
